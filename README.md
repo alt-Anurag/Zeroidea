@@ -4,9 +4,7 @@
 
 This was my first robotics project end-to-end. Nothing here is a pre-built kit — the chassis was modeled from scratch, the PCB was designed and fabricated at JLCPCB, and the control loop was tuned by hand until the robot could hold a line through tight S-curves at roughly **2 m/s**.
 
-<p align="center">
-  <img src="assets/img/07_bot_on_track.png" alt="Bot on track" width="480">
-</p>
+![Bot on track](assets/img/07_bot_on_track.png)
 
 ---
 
@@ -95,9 +93,7 @@ The ESP32 reads the 5-sensor array every loop, computes a PID correction, and di
 
 The full circuit lives on a single custom PCB (silkscreened `ZEROIDEA`), designed in KiCad and fabricated through JLCPCB.
 
-<p align="center">
-  <img src="hardware/schematic/pcb_schematic.png" alt="PCB Schematic" width="700">
-</p>
+![PCB Schematic](hardware/schematic/pcb_schematic.png)
 
 The schematic is organized into four functional blocks:
 
@@ -108,9 +104,7 @@ The schematic is organized into four functional blocks:
 
 Board fabrication was ordered as 5 pieces + basic assembly through JLCPCB:
 
-<p align="center">
-  <img src="assets/img/jlcpcb_quotation.png" alt="JLCPCB Quotation" width="600">
-</p>
+![JLCPCB Quotation](assets/img/00_jlcpcb_quotation.png)
 
 | Order | Qty | Cost |
 |---|---|---|
@@ -237,27 +231,27 @@ Highlights from that build:
 
 <table>
   <tr>
-    <td width="150" align="center"><img src="assets/img/01_sketch.jpeg" width="110" height="110"><br><sub><b>1. Concept sketch</b></sub></td>
+    <td width="150" align="center"><img src="assets/img/01_sketch.jpeg" width="150" height="150"><br><sub><b>1. Concept sketch</b></sub></td>
     <td>Layout planning on paper, before any CAD — motor, PCB, and battery placement decided here.</td>
   </tr>
   <tr>
-    <td width="150" align="center"><img src="assets/img/02_cardboard_prototype.jpeg" width="110" height="110"><br><sub><b>2. Cardboard prototype</b></sub></td>
+    <td width="150" align="center"><img src="assets/img/02_cardboard_prototype.jpeg" width="150" height="150"><br><sub><b>2. Cardboard prototype</b></sub></td>
     <td>Validating placement and wiring before committing to 3D printing.</td>
   </tr>
   <tr>
-    <td width="150" align="center"><img src="assets/img/03_pcb_delivered.jpeg" width="110" height="110"><br><sub><b>3. PCB delivered</b></sub></td>
+    <td width="150" align="center"><img src="assets/img/03_pcb_delivered.jpeg" width="150" height="150"><br><sub><b>3. PCB delivered</b></sub></td>
     <td>The fabricated <code>ZEROIDEA</code> board, back from JLCPCB.</td>
   </tr>
   <tr>
-    <td width="150" align="center"><img src="assets/img/04_body_assembly.jpeg" width="110" height="110"><br><sub><b>4. Chassis + PCB assembled</b></sub></td>
+    <td width="150" align="center"><img src="assets/img/04_body_assembly.jpeg" width="150" height="150"><br><sub><b>4. Chassis + PCB assembled</b></sub></td>
     <td>3D-printed body with the board mounted in place.</td>
   </tr>
   <tr>
-    <td width="150" align="center"><img src="assets/img/05_full_assembly.jpeg" width="110" height="110"><br><sub><b>5. Final assembly</b></sub></td>
+    <td width="150" align="center"><img src="assets/img/05_full_assembly.jpeg" width="150" height="150"><br><sub><b>5. Final assembly</b></sub></td>
     <td>Battery bay, sensor arm, and full wiring complete.</td>
   </tr>
   <tr>
-    <td width="150" align="center"><img src="assets/img/07_bot_on_track.png" width="110" height="110"><br><sub><b>6. On the test track</b></sub></td>
+    <td width="150" align="center"><img src="assets/img/07_bot_on_track.png" width="150" height="150"><br><sub><b>6. On the test track</b></sub></td>
     <td>Running the serpentine test course at full speed.</td>
   </tr>
 </table>
