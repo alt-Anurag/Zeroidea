@@ -104,7 +104,7 @@ The schematic is organized into four functional blocks:
 
 Board fabrication was ordered as 5 pieces + basic assembly through JLCPCB:
 
-![JLCPCB Quotation](assets/img/jlcpcb_quotation.png)
+![JLCPCB Quotation](assets/img/00_jlcpcb_quotation.png)
 
 | Order | Qty | Cost |
 |---|---|---|
